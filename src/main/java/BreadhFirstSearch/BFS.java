@@ -14,8 +14,8 @@ public class BFS {
             Vertex actualVertex = queue.remove();
             System.out.println(actualVertex + " ");
 
-            for(Vertex v : actualVertex.getNeighbourList()) {
-                if(!v.isVisited()) {
+            for (Vertex v : actualVertex.getNeighbourList()) {
+                if (!v.isVisited()) {
                     v.setVisited(true);
                     queue.add(v);
                 }

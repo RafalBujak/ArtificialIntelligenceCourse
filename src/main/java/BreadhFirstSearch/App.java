@@ -9,6 +9,7 @@ public class App {
         Vertex vertex4 = new Vertex(4);
         Vertex vertex5 = new Vertex(5);
 
+
         vertex1.addNeighbourVertex(vertex2);
         vertex1.addNeighbourVertex(vertex4);
         vertex4.addNeighbourVertex(vertex5);

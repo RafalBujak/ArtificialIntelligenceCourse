@@ -13,6 +13,7 @@ public class Vertex {
         this.neighbourList = new ArrayList<>();
     }
 
+
     public int getData() {
         return data;
     }
@@ -37,9 +38,10 @@ public class Vertex {
         this.neighbourList = neighbourList;
     }
 
-    public  void addNeighbourVertex(Vertex vertex) {
+    public void addNeighbourVertex(Vertex vertex) {
         this.neighbourList.add(vertex);
     }
+
     @Override
     public String toString() {
         return String.valueOf(this.data);
